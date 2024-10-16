@@ -1,0 +1,196 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f0f2f5;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #1e1e2f;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00f2fe;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.zap-description {
+    max-width: 50%;
+}
+
+.zap-description h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.zap-description h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.zap-description p {
+    font-size: 1.2em;
+}
+
+.usage-demo {
+    max-width: 50%;
+}
+
+.demo-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+    background-color: #fff;
+    padding: 60px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.features h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.feature-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1.1em;
+}
+
+/* Planned Features Section */
+.planned-features {
+    background-color: #f0f2f5;
+    padding: 60px 10%;
+    text-align: left; /* Left align text */
+}
+
+.planned-features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.planned-features h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.planned-features ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.4em; /* Increased font size */
+}
+
+.planned-features li {
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+}
+
+.contact a {
+    color: #00f2fe;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #00f2fe;
+}

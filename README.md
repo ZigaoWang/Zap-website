@@ -2,10 +2,6 @@
 
 Landing page for Zap Notes - a lightning-fast note-taking app. Visit at [zap-notes.com](https://zap-notes.com)
 
-<div align="center">
-  <img src="logo.jpeg" alt="Zap Notes Logo" width="120px" height="120px">
-</div>
-
 ## About 🚀
 
 Simple landing page built with HTML and CSS. Features a clean, minimal design that highlights the app's core features.

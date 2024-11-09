@@ -22,9 +22,3 @@ Simple landing page built with HTML and CSS. Features a clean, minimal design th
 ## Author
 
 Made by [Zigao Wang](https://github.com/ZigaoWang)
-
----
-
-<div align="center">
-  <a href="https://zap-notes.com">zap-notes.com</a>
-</div>

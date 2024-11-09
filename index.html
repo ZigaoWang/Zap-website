@@ -3,28 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZapNotesApp</title>
+  <title>Zap Notes - Fast Note Taking App</title>
+  <link rel="icon" href="logo.jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="nav">
+    <div class="nav-logo">
+      <i class="fas fa-bolt"></i>
+      Zap Notes
+    </div>
+    <a href="https://github.com/ZapNotesApp/Zap" class="nav-link">GitHub</a>
+  </nav>
 
-  <header>
-    <img src="logo.jpeg" alt="ZapNotesApp Logo" class="logo">
-  </header>
+  <main class="hero">
+    <img src="logo.jpeg" alt="Zap Notes Logo" class="app-logo">
+    <h1 class="hero-title">Zap Notes</h1>
+    <p class="hero-slogan">Take Notes at the Speed of Thought</p>
+    
+    <div class="credits">
+      <a href="https://github.com/ZigaoWang" target="_blank">
+        <i class="fas fa-user"></i>
+        Zigao Wang
+      </a>
+      <span class="divider">•</span>
+      <a href="https://www.gnu.org/licenses/" target="_blank">
+        <i class="fas fa-scale-balanced"></i>
+        GNU License
+      </a>
+    </div>
 
-  <main>
-    <h1>Welcome to ZapNotesApp</h1>
-    <p>Your go-to note-taking app powered by AI.</p>
-
-    <div class="buttons">
-      <a href="https://github.com/ZapNotesApp" class="btn">GitHub</a>
-      <a href="#" class="btn coming-soon" disabled>TestFlight (Coming Soon)</a>
+    <div class="button-group">
+      <a href="https://github.com/ZapNotesApp/Zap" class="btn-primary">
+        <i class="fab fa-github"></i>
+        GitHub Repo
+      </a>
+      <a href="#" class="btn-secondary coming-soon">
+        <i class="fab fa-app-store"></i>
+        TestFlight Beta
+        <span class="soon-tag">Coming Soon</span>
+      </a>
     </div>
   </main>
-
-  <footer>
-    <p>&copy; 2024 ZapNotesApp. All rights reserved.</p>
-  </footer>
-
 </body>
 </html>

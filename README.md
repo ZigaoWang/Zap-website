@@ -6,13 +6,6 @@ Landing page for Zap Notes - a lightning-fast note-taking app. Visit at [zap-not
 
 Simple landing page built with HTML and CSS. Features a clean, minimal design that highlights the app's core features.
 
-## Development
-
-```bash
-# Just open index.html in your browser
-# No build process required
-```
-
 ## Structure
 
 ```
